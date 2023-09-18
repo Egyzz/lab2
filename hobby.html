@@ -4,7 +4,8 @@
     <title>Hobby</title>
 </head>
 
-<body style="background-image: url(bk_img.jpg);">
+<body>
+    <img class="bgk" src="bk_img">
     <nav class="navbar">
         <ul>
             <li><a href="index.html">Home</a></li>
@@ -43,6 +44,12 @@
 
 </html>
 <style>
+    .bgk{
+            height: 100vh;
+            width: 100vw;
+            position: absolute;
+            z-index: -1;
+        }
     .navbar {
     display: flex;
     justify-items: center;
